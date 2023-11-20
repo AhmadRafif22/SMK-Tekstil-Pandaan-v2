@@ -373,6 +373,9 @@ h6 {
     .navbar ul {
         display: none;
     }
+    .navbar {
+      width: auto !important;
+    }
 }
 
 .navbar-mobile {
