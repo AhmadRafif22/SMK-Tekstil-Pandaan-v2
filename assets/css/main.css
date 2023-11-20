@@ -339,34 +339,6 @@ h6 {
     visibility: visible;
 }
 
-/* search input */
-.search-hover {
-    border: none;
-    outline: none;
-    background-size: 22px;
-    background-position: 13px;
-    border-radius: 10px;
-    width: 45px;
-    height: 45px;
-    padding: 25px;
-    padding-left: 10px;
-    transition: all 0.5s;
-    margin-right: -45px;
-}
-
-.search-btn:hover .search-hover {
-    width: 100%;
-    background: #F2F2F2;
-    border-radius: 8px;
-}
-
-.search-btn:hover {
-    background: #F2F2F2;
-    border-radius: 8px;
-}
-
-/* search end */
-
 @media (max-width: 1366px) {
     .navbar .dropdown .dropdown ul {
         left: -90%;
@@ -532,40 +504,6 @@ h6 {
     }
   }
   
-  #hero .hero-content .btn-get-started,
-  #hero .hero-content .btn-projects {
-    font-family: "Raleway", sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 10px 32px;
-    border-radius: 2px;
-    transition: 0.5s;
-    margin: 10px;
-    color: #fff;
-  }
-  
-  #hero .hero-content .btn-get-started {
-    background: #0c2e8a;
-    border: 2px solid #0c2e8a;
-  }
-  
-  #hero .hero-content .btn-get-started:hover {
-    background: none;
-    color: #0c2e8a;
-  }
-  
-  #hero .hero-content .btn-projects {
-    background: #50d8af;
-    border: 2px solid #50d8af;
-  }
-  
-  #hero .hero-content .btn-projects:hover {
-    background: none;
-    color: #50d8af;
-  }
-  
   #hero .hero-slider {
     z-index: 8;
     height: 60vh;
@@ -594,9 +532,6 @@ h6 {
   @media (max-width: 500px) {
     #hero .hero-content{
         padding: 0 15px !important;
-    }
-    #hero .hero-btn-container {
-        flex-direction: column;
     }
     #hero .hero-sub {
         font-size: 18px !important;
