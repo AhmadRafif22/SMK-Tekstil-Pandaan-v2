@@ -1293,14 +1293,20 @@ section.article .container .artikel-opini-card .artikel-opini-title:hover {
 /*--------------------------------------------------------------
   # =============== PAGE MEDIA ==========================
 -------------------------------------------------------------*/
+
 #media {
   background: #F2F2F2 !important;
+  min-height: 80vh !important;
 }
-#media .btn-download {
-  bottom: 10px !important;
-  right: 10px !important;
+#media .media-icon-container {
+  background: #E9F7F3;
 }
-#media .row .col .card {
+#media .media-icon {
+  color: #35BB92 !important;
+}
+#media .card-media {
+  background: white !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   height: 100% !important;
 }
 @media (max-width: 500px) {
@@ -1308,7 +1314,21 @@ section.article .container .artikel-opini-card .artikel-opini-title:hover {
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
+  #media .card-media {
+    padding: 20px !important;
+    border-radius: 8px !important;
+  }
+  #media .card-title {
+    font-size: 18px !important;
+  }
+  #media .card-text {
+    font-size: 16px !important;
+  }
+  #media .media-icon-container {
+    display: none !important;
+  }
 }
+
 /*--------------------------------------------------------------
   # =============== PAGE MEDIA END ==========================
 -------------------------------------------------------------*/
