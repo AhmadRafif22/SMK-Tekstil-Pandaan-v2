@@ -1332,3 +1332,23 @@ section.article .container .artikel-opini-card .artikel-opini-title:hover {
 /*--------------------------------------------------------------
   # =============== PAGE MEDIA END ==========================
 -------------------------------------------------------------*/
+@media (max-width: 500px) {
+  .detail-berita .artikel-berita-tanggal {
+    font-size: 11px !important;
+  }
+
+  .detail-berita .detail-berita-title {
+    font-size: 20px !important;
+  }
+
+  .detail-berita .detail-berita-text {
+    font-size: 14px !important;
+  }
+}
+/*--------------------------------------------------------------
+  # =============== PAGE DETAIL BERITA ==========================
+-------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  # =============== PAGE DETAIL BERITA END ==========================
+-------------------------------------------------------------*/
