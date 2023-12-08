@@ -1338,7 +1338,13 @@ section {
   display: -webkit-box !important;
   -webkit-box-orient: vertical !important;
 }
-
+.detail-berita .artikel-opini-title {
+  font-size: 1.35rem !important;
+  font-weight: 600 !important;
+}
+.detail-berita .artikel-berita-tanggal {
+  font-size: 0.9rem !important;
+}
 .detail-berita .artikel-opini-title:hover {
   color: blue !important;
 }
