@@ -1380,3 +1380,38 @@ section {
 /*--------------------------------------------------------------
   # =============== PAGE DETAIL BERITA END ==========================
 -------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  # =============== PAGE  BERITA ==========================
+-------------------------------------------------------------*/
+
+.page-berita .page-berita-img {
+  height: 250px;
+}
+
+.page-berita .list-berita-title{
+  -webkit-line-clamp: 2 !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+}
+
+.page-berita .list-berita-desc {
+  -webkit-line-clamp: 4 !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+}
+
+.card-berita {
+  transition-time: 200ms;
+}
+
+.card-berita:hover {
+  transform: scale(0.98);
+}
+/*--------------------------------------------------------------
+  # =============== PAGE BERITA END ==========================
+-------------------------------------------------------------*/
