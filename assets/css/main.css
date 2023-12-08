@@ -1392,7 +1392,7 @@ section {
 -------------------------------------------------------------*/
 
 .page-berita .page-berita-img {
-  height: 250px;
+  height: 225px;
 }
 
 .page-berita .list-berita-title{
@@ -1404,7 +1404,7 @@ section {
 }
 
 .page-berita .list-berita-desc {
-  -webkit-line-clamp: 4 !important;
+  -webkit-line-clamp: 3 !important;
   overflow: hidden !important;
   text-overflow: ellipsis !important;
   display: -webkit-box !important;
@@ -1412,11 +1412,27 @@ section {
 }
 
 .card-berita {
-  transition-time: 200ms;
+  transition-duration: 300ms;
 }
 
 .card-berita:hover {
-  transform: scale(0.98);
+  transform: scale(0.99);
+}
+
+@media (max-width: 500px) {
+  .page-berita {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .page-berita .list-beita-date {
+    font-size: 14px;
+    margin-bottom: 8px !important;
+  }
+
+  .page-berita .list-berita-title {
+    font-size: 1.5rem;
+    margin-bottom: 8px !important;
+  }
 }
 /*--------------------------------------------------------------
   # =============== PAGE BERITA END ==========================
