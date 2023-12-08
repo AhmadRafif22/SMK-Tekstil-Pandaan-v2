@@ -1326,6 +1326,38 @@ section {
 # =============== PAGE DETAIL BERITA ==========================
 -------------------------------------------------------------*/
 
+.detail-berita .img-detail-berita {
+  object-fit: cover;
+  height: 500px;
+} 
+
+.detail-berita .artikel-opini-title {
+  -webkit-line-clamp: 2 !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+}
+
+.detail-berita .artikel-opini-title:hover {
+  color: blue !important;
+}
+
+@media (max-width: 1024px) {
+  .detail-berita .img-detail-berita {
+    height: 300px;
+  }
+  .detail-berita {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .detail-berita .artikel-opini-title {
+    font-size: 1.25rem !important;
+  }
+  .detail-berita .artikel-berita-tanggal {
+    font-size: 0.75rem !important;
+  }
+}
 @media (max-width: 500px) {
   .detail-berita .artikel-berita-tanggal {
     font-size: 11px !important;
@@ -1338,7 +1370,12 @@ section {
   .detail-berita .detail-berita-text {
     font-size: 14px !important;
   }
+
+  .detail-berita .img-detail-berita {
+    height: 200px;
+  }
 }
+
 
 /*--------------------------------------------------------------
   # =============== PAGE DETAIL BERITA END ==========================
