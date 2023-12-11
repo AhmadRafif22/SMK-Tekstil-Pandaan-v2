@@ -1329,7 +1329,7 @@ section {
 .detail-berita .img-detail-berita {
   object-fit: cover;
   height: 500px;
-} 
+}
 
 .detail-berita .artikel-opini-title {
   -webkit-line-clamp: 2 !important;
@@ -1338,13 +1338,16 @@ section {
   display: -webkit-box !important;
   -webkit-box-orient: vertical !important;
 }
+
 .detail-berita .artikel-opini-title {
   font-size: 1.35rem !important;
   font-weight: 600 !important;
 }
+
 .detail-berita .artikel-berita-tanggal {
   font-size: 0.9rem !important;
 }
+
 .detail-berita .artikel-opini-title:hover {
   color: blue !important;
 }
@@ -1353,17 +1356,21 @@ section {
   .detail-berita .img-detail-berita {
     height: 300px;
   }
+
   .detail-berita {
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
+
   .detail-berita .artikel-opini-title {
     font-size: 1.25rem !important;
   }
+
   .detail-berita .artikel-berita-tanggal {
     font-size: 0.75rem !important;
   }
 }
+
 @media (max-width: 500px) {
   .detail-berita .artikel-berita-tanggal {
     font-size: 11px !important;
@@ -1395,7 +1402,7 @@ section {
   height: 280px;
 }
 
-.page-berita .list-berita-title{
+.page-berita .list-berita-title {
   -webkit-line-clamp: 2 !important;
   overflow: hidden !important;
   text-overflow: ellipsis !important;
@@ -1425,6 +1432,7 @@ section {
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
+
   .page-berita .list-beita-date {
     font-size: 14px;
     margin-bottom: 8px !important;
@@ -1435,6 +1443,7 @@ section {
     margin-bottom: 8px !important;
   }
 }
+
 /*--------------------------------------------------------------
   # =============== PAGE BERITA END ==========================
 -------------------------------------------------------------*/
